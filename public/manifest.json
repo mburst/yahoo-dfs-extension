@@ -1,0 +1,14 @@
+{
+  "name": "Yahoo DFS Extension",
+  "description": "Extension suite for yahoo dfs",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://sports.yahoo.com/dailyfantasy/*"],
+      "js": ["build/content.js"],
+      "css": ["build/styles.css"]
+    }
+  ]
+}

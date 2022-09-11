@@ -1,0 +1,29 @@
+{
+  "name": "yahoo-dfs-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mburst/yahoo-dfs-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mburst/yahoo-dfs-extension/issues"
+  },
+  "homepage": "https://github.com/mburst/yahoo-dfs-extension#readme",
+  "devDependencies": {
+    "esbuild": "0.15.7",
+    "esbuild-copy-static-files": "0.1.0",
+    "typescript": "4.8.3"
+  },
+  "dependencies": {
+    "@types/chrome": "0.0.196"
+  }
+}

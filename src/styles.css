@@ -1,0 +1,13 @@
+.js-rake {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.js-rake-strike {
+  text-decoration: line-through;
+}
+
+.js-rake-good {
+  /* font-weight: bold; */
+  color: red;
+}
